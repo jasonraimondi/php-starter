@@ -3,6 +3,9 @@ namespace Jmondi\Guts;
 
 class FancyClass
 {
+    /**
+     * @var string
+     */
     private $something;
 
     /**
@@ -18,7 +21,7 @@ class FancyClass
     /**
      * @return string
      */
-    public function getSomething() : string
+    public function getSomething(): string
     {
         return $this->something;
     }
